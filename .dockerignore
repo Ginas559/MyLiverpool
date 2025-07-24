@@ -1,0 +1,11 @@
+# Bỏ qua thư mục không cần thiết
+Liverpool_2407/
+*.txt
+*.md
+*.log
+*.iml
+*.class
+target/
+.idea/
+.vscode/
+.DS_Store
