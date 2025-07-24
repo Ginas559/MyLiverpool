@@ -1,4 +1,4 @@
-FROM tomcat:11.0.4-jdk21-temurin
+FROM tomcat:10.1.36-jdk21-temurin
 RUN rm -rf /usr/local/tomcat/webapps/*
 COPY iportfolio-web.war /usr/local/tomcat/webapps/ROOT.war
 EXPOSE 8080
